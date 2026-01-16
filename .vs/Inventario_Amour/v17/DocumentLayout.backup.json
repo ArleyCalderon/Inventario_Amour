@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Arley\\Downloads\\1.Versiones\\V2\\Inventario_Amour\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D9221DC7-5EA8-4EE6-A387-AD10015CA755}|Inventario_Amour\\Inventario_Amour.csproj|c:\\users\\arley\\downloads\\1.versiones\\v2\\inventario_amour\\inventario_amour\\viewmodel\\productoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9221DC7-5EA8-4EE6-A387-AD10015CA755}|Inventario_Amour\\Inventario_Amour.csproj|solutionrelative:inventario_amour\\viewmodel\\productoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9221DC7-5EA8-4EE6-A387-AD10015CA755}|Inventario_Amour\\Inventario_Amour.csproj|c:\\users\\arley\\downloads\\1.versiones\\v2\\inventario_amour\\inventario_amour\\vistas\\ventanamovimiento.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{D9221DC7-5EA8-4EE6-A387-AD10015CA755}|Inventario_Amour\\Inventario_Amour.csproj|solutionrelative:inventario_amour\\vistas\\ventanamovimiento.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9221DC7-5EA8-4EE6-A387-AD10015CA755}|Inventario_Amour\\Inventario_Amour.csproj|c:\\users\\arley\\downloads\\1.versiones\\v2\\inventario_amour\\inventario_amour\\viewmodel\\inventarioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9221DC7-5EA8-4EE6-A387-AD10015CA755}|Inventario_Amour\\Inventario_Amour.csproj|solutionrelative:inventario_amour\\viewmodel\\inventarioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9221DC7-5EA8-4EE6-A387-AD10015CA755}|Inventario_Amour\\Inventario_Amour.csproj|c:\\users\\arley\\downloads\\1.versiones\\v2\\inventario_amour\\inventario_amour\\helpers\\firebaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9221DC7-5EA8-4EE6-A387-AD10015CA755}|Inventario_Amour\\Inventario_Amour.csproj|solutionrelative:inventario_amour\\helpers\\firebaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9221DC7-5EA8-4EE6-A387-AD10015CA755}|Inventario_Amour\\Inventario_Amour.csproj|c:\\users\\arley\\downloads\\1.versiones\\v2\\inventario_amour\\inventario_amour\\viewmodel\\movimientoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9221DC7-5EA8-4EE6-A387-AD10015CA755}|Inventario_Amour\\Inventario_Amour.csproj|solutionrelative:inventario_amour\\viewmodel\\movimientoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9221DC7-5EA8-4EE6-A387-AD10015CA755}|Inventario_Amour\\Inventario_Amour.csproj|c:\\users\\arley\\downloads\\1.versiones\\v2\\inventario_amour\\inventario_amour\\model\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9221DC7-5EA8-4EE6-A387-AD10015CA755}|Inventario_Amour\\Inventario_Amour.csproj|solutionrelative:inventario_amour\\model\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Arley\\Downloads\\1.Versiones\\V2\\Inventario_Amour\\Inventario_Amour\\ViewModel\\ProductoViewModel.cs",
+              "RelativeDocumentMoniker": "Inventario_Amour\\ViewModel\\ProductoViewModel.cs",
+              "ToolTip": "C:\\Users\\Arley\\Downloads\\1.Versiones\\V2\\Inventario_Amour\\Inventario_Amour\\ViewModel\\ProductoViewModel.cs",
+              "RelativeToolTip": "Inventario_Amour\\ViewModel\\ProductoViewModel.cs",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAqwLIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T20:00:26.431Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VentanaMovimiento.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Arley\\Downloads\\1.Versiones\\V2\\Inventario_Amour\\Inventario_Amour\\Vistas\\VentanaMovimiento.xaml.cs",
+              "RelativeDocumentMoniker": "Inventario_Amour\\Vistas\\VentanaMovimiento.xaml.cs",
+              "ToolTip": "C:\\Users\\Arley\\Downloads\\1.Versiones\\V2\\Inventario_Amour\\Inventario_Amour\\Vistas\\VentanaMovimiento.xaml.cs",
+              "RelativeToolTip": "Inventario_Amour\\Vistas\\VentanaMovimiento.xaml.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAADwvyoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T14:43:04.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MovimientoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Arley\\Downloads\\1.Versiones\\V2\\Inventario_Amour\\Inventario_Amour\\ViewModel\\MovimientoViewModel.cs",
+              "RelativeDocumentMoniker": "Inventario_Amour\\ViewModel\\MovimientoViewModel.cs",
+              "ToolTip": "C:\\Users\\Arley\\Downloads\\1.Versiones\\V2\\Inventario_Amour\\Inventario_Amour\\ViewModel\\MovimientoViewModel.cs",
+              "RelativeToolTip": "Inventario_Amour\\ViewModel\\MovimientoViewModel.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAIAwwGQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T00:29:30.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InventarioViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Arley\\Downloads\\1.Versiones\\V2\\Inventario_Amour\\Inventario_Amour\\ViewModel\\InventarioViewModel.cs",
+              "RelativeDocumentMoniker": "Inventario_Amour\\ViewModel\\InventarioViewModel.cs",
+              "ToolTip": "C:\\Users\\Arley\\Downloads\\1.Versiones\\V2\\Inventario_Amour\\Inventario_Amour\\ViewModel\\InventarioViewModel.cs",
+              "RelativeToolTip": "Inventario_Amour\\ViewModel\\InventarioViewModel.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAcwEcAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T13:33:00.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FirebaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Arley\\Downloads\\1.Versiones\\V2\\Inventario_Amour\\Inventario_Amour\\Helpers\\FirebaseRepository.cs",
+              "RelativeDocumentMoniker": "Inventario_Amour\\Helpers\\FirebaseRepository.cs",
+              "ToolTip": "C:\\Users\\Arley\\Downloads\\1.Versiones\\V2\\Inventario_Amour\\Inventario_Amour\\Helpers\\FirebaseRepository.cs",
+              "RelativeToolTip": "Inventario_Amour\\Helpers\\FirebaseRepository.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAWwEcAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T13:33:27.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Arley\\Downloads\\1.Versiones\\V2\\Inventario_Amour\\Inventario_Amour\\Model\\Producto.cs",
+              "RelativeDocumentMoniker": "Inventario_Amour\\Model\\Producto.cs",
+              "ToolTip": "C:\\Users\\Arley\\Downloads\\1.Versiones\\V2\\Inventario_Amour\\Inventario_Amour\\Model\\Producto.cs",
+              "RelativeToolTip": "Inventario_Amour\\Model\\Producto.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T00:29:54.478Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

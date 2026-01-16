@@ -1,0 +1,81 @@
+﻿<UserControl x:Class="Inventario_Amour.Vistas.Products"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Inventario_Amour.Vistas"
+      mc:Ignorable="d" 
+      Height="464" Width="800"             
+      Background="LightBlue" Margin=" 5 5 5 5">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.TextBox.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Button.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="80"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+
+        </Grid.RowDefinitions>
+        <TextBox Text="{Binding FiltroNombre, UpdateSourceTrigger=PropertyChanged}" Margin="10,10,0,0" Width="140"  Style="{StaticResource MaterialDesignFloatingHintTextBox}" Grid.Column="0" Grid.Row="0" materialDesign:HintAssist.Hint="Nombre" HorizontalAlignment="Left" VerticalAlignment="Center"></TextBox>
+        <Label HorizontalAlignment="Left" Margin="70,10,0,0" Grid.Row="0" Grid.Column="4" Grid.ColumnSpan="2" VerticalAlignment="Top"
+          FontWeight="Bold" FontSize="15"  Content="Creación Productos" ></Label>
+        <Button Style="{StaticResource MaterialDesignRaisedLightButton}" 
+            Content="Consultar" Grid.Row="0" Grid.Column="1" 
+            Command="{Binding ConsultarProductosCommand}"
+            HorizontalAlignment="Left"
+            FontSize="13"  Margin="0,10,0,10" Cursor="Hand">
+        </Button>
+        <Button Style="{StaticResource MaterialDesignRaisedLightButton}" 
+            Content="Crear" Grid.Row="0" Grid.Column="2" 
+            Command="{Binding AgregarProductoCommand}"
+            HorizontalAlignment="Left"
+            FontSize="13"  Margin="0,10,0,10" Cursor="Hand">
+        </Button>
+        <Button Style="{StaticResource MaterialDesignRaisedLightButton}" 
+            Content="Agregar/Eliminar" Grid.Row="0" Grid.Column="3" Grid.ColumnSpan="2"
+            Command="{Binding EliminarProductoCommand}"
+            HorizontalAlignment="Left"
+            FontSize="13"  Margin="0,10,0,10" Cursor="Hand">
+        </Button>
+        <!--<Button Style="{StaticResource MaterialDesignRaisedLightButton}" Content="Modificar" Grid.Row="0" Grid.Column="2" 
+            Name="btnModificar" HorizontalAlignment="Left"
+            FontSize="13" Click="btnModificar_Click" Margin="0,10,0,10">
+        </Button>
+        <Button Style="{StaticResource MaterialDesignRaisedLightButton}" Content="Agregar" Grid.Row="0" Grid.Column="3" 
+            Name="btnAgregar" HorizontalAlignment="Left"
+            FontSize="13" Click="btnAgregar_Click" Margin="0,10,0,10">
+        </Button>-->
+        <DataGrid Name="datagridinventario" AutoGenerateColumns="False" 
+              ItemsSource="{Binding Productos}"
+              Grid.ColumnSpan="5" IsReadOnly="True"
+              Grid.Row="2" Background="LightBlue"
+              SelectedItem="{Binding IdProducto}" SelectionChanged="datagridinventario_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Código" Binding="{Binding IdProducto}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Nombre" Binding="{Binding Nombre}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Precio" Binding="{Binding Precio}"></DataGridTextColumn>
+                <!--<DataGridTextColumn Header="Entrada" Binding="{Binding Entrada}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Salida" Binding="{Binding Salida}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Stock" Binding="{Binding Stock}"></DataGridTextColumn>-->
+
+            </DataGrid.Columns>
+
+        </DataGrid>
+    </Grid>
+</UserControl>

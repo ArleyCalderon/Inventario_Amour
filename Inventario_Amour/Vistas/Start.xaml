@@ -1,0 +1,36 @@
+﻿<UserControl x:Class="Inventario_Amour.Vistas.Start"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Inventario_Amour.Vistas"
+      mc:Ignorable="d" 
+      d:DesignHeight="464" d:DesignWidth="666">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.TextBox.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Button.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid >
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <!--<TextBlock Grid.Column="0" Grid.ColumnSpan="2" x:Name="AssistanceName" TextAlignment="Center"
+               Grid.Row="1" HorizontalAlignment="Center" TextWrapping="Wrap"
+               FontSize="24" VerticalAlignment="Center">Inventario Amour</TextBlock>-->
+        <!--<Button Style="{StaticResource MaterialDesignRaisedLightButton}" Content="Cerrar Sesión" Grid.Row="0" Grid.Column="1" 
+                Name="btnCerrarSesion" HorizontalAlignment="Left" 
+                FontSize="13" Click="btnCerrarSesion_Click" Margin="212,10,0,113" RenderTransformOrigin="-0.011,0.469" >
+        </Button>-->
+    </Grid>
+</UserControl>

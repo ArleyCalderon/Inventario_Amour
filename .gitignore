@@ -1,0 +1,7 @@
+# .NET / Visual Studio
+bin/
+obj/
+**/bin/
+**/obj/
+publish/
+*.exe
